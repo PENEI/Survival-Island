@@ -1,0 +1,4 @@
+Known issues:
+
+1. Be sure MaskCamera has Target Texture set to AirMask. Some Unity versions
+rarely reset Target Texture property to None, what looks like a bug.

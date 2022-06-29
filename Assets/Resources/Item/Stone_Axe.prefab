@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3548778295721164295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4795158882481344170}
+  - component: {fileID: 5257058542083079867}
+  m_Layer: 0
+  m_Name: Stone_Axe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4795158882481344170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3548778295721164295}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5257058542083079867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3548778295721164295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cda8847e878c7f74e80cb7c57266b748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemInfo:
+    ID: 15
+    Name_Eng: Stone_Axe
+    Name_Kor: "\uB3CC \uB3C4\uB07C"
+    Material_Type: 2
+    Use_Tool: 3
+    Craft: 1
+    Stack: 1
+    Craft_Place: -1
+    SourceArr: []
+    Dur: 30
+    Dur_Reduction: 1
+    Atk_Variation: 0
+    Def_Variation: 0
+    Hydration_Variation: 0
+    Hunger_Variation: 0
+    Fatigue_Varioation: 0
+    Flu_Removal: 0
+    Bromatotoxism_Removal: 0
+    Hp_Variation: 0
+    Bromatotoxism_Chk: 0
+  ID: 15
+  sprite: {fileID: 21300000, guid: 76332875f8cd59442b10b7e9cd89c456, type: 3}
+  model: {fileID: 898922546025438829, guid: 631f002dbc80439428a17dc796d5fa8f, type: 3}

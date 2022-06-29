@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1489521168516940769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6432954045105066186}
+  - component: {fileID: 2358598941876292928}
+  m_Layer: 0
+  m_Name: Berry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6432954045105066186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489521168516940769}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2358598941876292928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489521168516940769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cda8847e878c7f74e80cb7c57266b748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemInfo:
+    ID: 31
+    Name_Eng: Berry
+    Name_Kor: "\uBCA0\uB9AC"
+    Material_Type: 4
+    Use_Tool: 0
+    Craft: 0
+    Stack: 10
+    Craft_Place: -1
+    Dur: -1
+    Dur_Reduction: -1
+    Atk_Variation: 0
+    Def_Variation: 0
+    Hydration_Variation: 0
+    Hunger_Variation: 5
+    Fatigue_Varioation: 0
+    Flu_Removal: 0
+    Bromatotoxism_Removal: 0
+    Hp_Variation: 0
+    Bromatotoxism_Chk: 0
+  ID: 31
+  sprite: {fileID: 21300000, guid: 051942c5590c31d46b0e8b8c885f2cb4, type: 3}
+  model: {fileID: 0}

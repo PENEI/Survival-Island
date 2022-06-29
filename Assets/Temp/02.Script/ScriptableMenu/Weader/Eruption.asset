@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a14ac7c1ca898d4ead85c5bbeb32e36, type: 3}
+  m_Name: Eruption
+  m_EditorClassIdentifier: 
+  _name: "\uBD84\uD654"
+  icon: {fileID: 21300000, guid: 62467e873f70b964c85a255a928082a7, type: 3}
+  value: 0
+  closeCost: 0
+  debuff: []
+  fxFilter: {fileID: 0}
+  startTimeMin: 0
+  startTimeMax: 0
+  audio: {fileID: 0}
+  maintainWeader: 0
